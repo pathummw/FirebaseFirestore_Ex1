@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+    <script defer src="app.js"></script>
     <title>Firebase and SASS</title>
 </head>
 
 <body>
+    <div class="container">
+        <form action="" id="formId">
+            <label for="">Enter your name</label>
+            <input type="text" name="name">
+            <label for="">Age</label>
+            <input type="text" name="age">
+            <label for="">Weight</label>
+            <input type="text" name="weight">
+            <label for="">Height</label>
+            <input type="text" name="height">
+
+            <button>Submit</button>
+        </form>
+        <section class="display">
+            <ul id="personList"></ul>
+        </section>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!--  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script> -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+    <script>
+
+    </script>
+
+
 
 </body>
 
